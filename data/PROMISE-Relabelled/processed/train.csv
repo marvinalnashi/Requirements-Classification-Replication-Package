@@ -1,0 +1,501 @@
+ProjectID,RequirementText,Class,IsFunctional,IsQuality,IsOnlyFunctional,IsOnlyQuality,F+Q,NotR
+11,the product shall ensure that only supervisors can enter a caller s schedule the product must ensure that supervisors are allowed to access advertise empty time slots,FR,1,1,0,0,1,0
+6,the product shall be able to delete room equipment,FR,1,0,1,0,0,0
+10,when a shot is marked as a hit the product shall simulate the sound of a shot hitting its target,FR,1,1,0,0,1,0
+4,all actions that modify an existing dispute case must be recorded in the case history,FR,1,1,0,0,1,0
+2,only registered realtors shall be able to access the system,FR,0,1,0,1,0,0
+7,the system shall be able to automatically backup business data and restore them on demand,FR,1,1,0,0,1,0
+8,only administrators can activate a pre paid card,FR,0,1,0,1,0,0
+6,the product shall make the users want to use it 80 of the users surveyed report they are regularly using the product after the first 2 weeks post launch,FR,0,1,0,1,0,0
+12,the product shall provide error tracking services the product shall help the system administrators and dbas to resolve transaction errors 99 of the time,FR,1,1,0,0,1,0
+8,the website will comply with w3c standards,FR,0,1,0,1,0,0
+5,the system shall prevent malicious attacks including denial of service,FR,0,1,0,1,0,0
+6,the product shall record the transportation status of equipment reserved,FR,1,0,1,0,0,0
+3,staff members shall be able to complete a set of tasks in a timely manner,FR,0,1,0,1,0,0
+4,100 of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course,FR,0,1,0,1,0,0
+5,the ratings shall be from a scale of 1 10,FR,1,0,1,0,0,0
+9,for leads that process longer than 25 seconds the system will record the event and duration,FR,1,0,1,0,0,0
+8,movies shall be encoded and streamed via windows media player 9 0,FR,0,1,0,1,0,0
+14,the application shall ask the user to confirm dropping a player or trading a player before performing the action,FR,1,0,1,0,0,0
+6,the product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution,FR,1,1,0,0,1,0
+4,the disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests,FR,0,1,0,1,0,0
+8,all aspects of the website shall be accessed by a web browser over the internet,FR,0,1,0,1,0,0
+5,the product shall adhere to the corporate architecture guidelines,FR,0,1,0,1,0,0
+1,the system shall refresh the display every 60 seconds,FR,1,1,0,0,1,0
+6,the product shall prevent the input of malicious data the product and or adjacent hardware software systems data shall remain 100 uncorrupted each time malicious data is input into the product,FR,0,1,0,1,0,0
+8,the website will provide a help section with answers and solutions to common problems,FR,1,0,1,0,0,0
+3,the system shall allow a program administrator or nursing staff member to remove a student from a clinical lab section,FR,1,0,1,0,0,0
+4,the disputes system shall allow the user to create or initiate a chargeback request the system must prompt the user to enter the required information to initiate a chargeback request the chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid,FR,1,0,1,0,0,0
+6,the product and or dependent databases filesystems shall remain operational as a result of the input of malicious data the product and or dependent databases filesystems shall not crash 100 of the time that malicious data is input into the product,FR,0,1,0,1,0,0
+5,the maintenance of the product will fall within the established corporate maintenance windows,FR,0,1,0,1,0,0
+7,product formulas shall allow use of semi products which have own formulas,FR,1,0,1,0,0,0
+8,website shall allow customers to view reviews of selected movies by other customers,FR,1,0,1,0,0,0
+3,the system shall interface with the faculty central server,FR,0,1,0,1,0,0
+2,the product shall operate in offline mode whenever internet connection is unavailable,FR,0,1,0,1,0,0
+5,the recycled parts audit report shall be returned to the user within 10 seconds the audit report shall be returned within 10 seconds,FR,1,1,0,0,1,0
+4,the disputes system must prevent external users from requesting original receipts requests for original receipts are restricted to internal users,FR,1,0,1,0,0,0
+5,the adjuster shall be able to override the preferred repair facitlity on the estimate assignment,FR,1,0,1,0,0,0
+4,all updates to data files or database must be initiated from the disputes system,FR,0,0,0,0,0,1
+8,system shall let izogn manager access sales and usage statistics in under 2 minutes,FR,0,1,0,1,0,0
+7,the system shall utilize currently owned computer equipment,FR,0,1,0,1,0,0
+8,website shall allow customers to browse movies by categories entered in by izogn administrator,FR,1,0,1,0,0,0
+5,the estimator shall search for available recycled parts using damaged vehicle parts information,FR,1,0,1,0,0,0
+9,the lead washing process will operate within the established physical web service structure,FR,0,1,0,1,0,0
+9,the leads washing functionality will have an interface in which lead data parameters can be maintained,FR,1,0,1,0,0,0
+3,program administrators and nursing staff members shall be able to add a single student to a cohort,FR,1,0,1,0,0,0
+6,the product shall be able to process 10 000 transactions per hour within two years of its launch this number will increase to 20 000 by release 2,FR,0,1,0,1,0,0
+5,the product shall be supported using the corporate support center,FR,0,1,0,1,0,0
+6,the product shall have the ability to receive automatic software updates as new threats emerge 100 of customers will be able to receive automatic software updates transmitted to the installed product,FR,0,1,0,1,0,0
+13,the wcs system shall not allow automatic logins by any user cookies containing wcs login information about a user will not be stored on a user s computer,FR,0,1,0,1,0,0
+3,the system shall be able to display a printable summary of the system log,FR,1,0,1,0,0,0
+3,the system shall be used within the specifications defined by the computers used by the program administrators nursing staff members,FR,0,1,0,1,0,0
+2,the look and feel of the system shall conform to the user interface standards of the smart device,FR,0,1,0,1,0,0
+10,for each turn the product shall allow the offensive player to define a shot,FR,1,0,1,0,0,0
+5,the estimator shall not apply recycled parts to the collision estimate if no available parts are returned,FR,1,0,1,0,0,0
+8,an anonymous survey will show that 70 of customers are comfortable purchasing streaming movies after 2 weeks using the website,FR,0,1,0,1,0,0
+5,the product shall be easy to use by adjusters and collision estimators 95 of adjusters and collision estimators shall find the product easy to use,FR,0,1,0,1,0,0
+5,the product must comply with sarbanes oxley,FR,0,1,0,1,0,0
+1,the bottom 3 4 of the table will hold events that occur according to its relevance to current time,FR,1,1,0,0,1,0
+15,user access should be limited to the permissions granted to their role s each level in the pcg hierarchy will be assigned a role and users will be assigned to these roles access to functionality within rfs system is dependent on the privileges permission assigned to the role,FR,0,1,0,1,0,0
+6,the language of the product shall accommodate all of the target market countries 90 of survey respondents from each target market country will find that the language of the product is acceptable,FR,0,1,0,1,0,0
+4,the disputes application shall interface with the cardmember information database the cardmember information database provides detailed information with regard to a cardmember all cardmember detail information must be obtained from the cardmember information database,FR,0,1,0,1,0,0
+6,the product s look and feel shall be able to incorporate aspects of the customer s organization such as logo branding and identity,FR,0,1,0,1,0,0
+6,the product shall have a customizable look and feel,FR,1,1,0,0,1,0
+6,the product shall display conference rooms according to search parameters,FR,1,0,1,0,0,0
+5,the audit report shall include the percentage of available recycled parts used in the estimate,FR,1,0,1,0,0,0
+8,system shall let administrators generate unique pre paid pins in under 2 minutes and generate an excel file with the generated pins,FR,1,1,0,0,1,0
+6,the product is expected to integrate with multiple database management systems the product will operate with oracle sql server db2 mysql hsql and ms access,FR,0,1,0,1,0,0
+6,a new user must be able to be added to the system within 10 minutes 90 of new users are able to log into the system within 10 minutes,FR,0,1,0,1,0,0
+4,the disputes system must provide the ability to view existing dispute cases,FR,1,0,1,0,0,0
+4,the disputes application must conform to the legal requirements as specified by regulation e and regulation z that govern credit card disputes processing,FR,0,1,0,1,0,0
+4,the disputes system will provide the user the ability to create or initiate a ticket retrieval request as part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request the ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction,FR,1,0,1,0,0,0
+6,the product shall conform to the americans with disabilities act,FR,0,1,0,1,0,0
+3,students added to a cohort shall be eligible for the cohort s program of study,FR,1,0,1,0,0,0
+13,all ccr users shall receive training before the wcs system is deployed one training session will be held for 100 of ccr users before system deployment based on a ccr user being available,FR,0,0,0,0,0,1
+2,the product shall retain user preferences in the event of a failure,FR,1,0,1,0,0,0
+10,when a ship is sunk the product shall simulate the sound of a sinking ship,FR,1,1,0,0,1,0
+4,the dispute system shall provide the users with the ability to follow up on a dispute case via follow up actions the list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user,FR,1,0,1,0,0,0
+8,the same hardware supporting the current website will be used to support the new system,FR,0,1,0,1,0,0
+6,the product shall record updated meeting agendas,FR,1,0,1,0,0,0
+5,the system shall generate an audit report based on the available recycled parts and the collision estimate,FR,1,0,1,0,0,0
+6,the response shall be fast enough to avoid interrupting the user s flow of thought 90 of tasks shall complete within 5 seconds 98 of tasks shall complete within 8 seconds,FR,0,1,0,1,0,0
+13,the system shall only be accessed by authorized corporate community grants ccr employees users must be authenticated using their ibm intranet user name and password,FR,0,1,0,1,0,0
+9,the leads washing functionality will verify the users authentication and rights to make parameter updates,FR,1,0,1,0,0,0
+12,the product shall interface csr and datastream the product shall exchange messages between csr and eam on a real time basis without any direct interfaces between two systems,FR,0,1,0,1,0,0
+15,the users should be able to easily use the system to successfully complete their budgets within the stipulated time for completion with a week of training prior to product implementation 98 of the users shall complete their budgets within the stipulated time,FR,0,1,0,1,0,0
+1,the system shall offer the ability to pause and resume the refresh of data,FR,1,0,1,0,0,0
+5,the user shall select to view the preferred repair facility ratings,FR,1,0,1,0,0,0
+3,the system will notify affected parties when changes occur affecting specific students including but not limited to changing a student s status from full time to part time and moving a student to a different clinical section,FR,1,0,1,0,0,0
+3,the system will use the stored e mail addresses as a primary means of communicating information to affected parties,FR,1,0,1,0,0,0
+4,all authorized users once authenticated must be able to logon to the disputes system,FR,0,1,0,1,0,0
+5,the preferred repair facility shall be returned to the user,FR,1,0,1,0,0,0
+8,the website shall protect itself from intentional abuse and notify the administrator at all occurrences,FR,0,1,0,1,0,0
+14,a new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start up page,FR,0,1,0,1,0,0
+10,the product shall allow a player to end a game at any time during the game,FR,1,0,1,0,0,0
+10,the product shall be available 24 hours per day seven days per week,FR,0,1,0,1,0,0
+5,the adjuster shall review the collision estimate,FR,1,0,1,0,0,0
+10,if the shot was marked as a miss the product shall change the status of the offensive player to defensive,FR,1,0,1,0,0,0
+5,the system shall locate the preferred repair facility with the highest ratings for the input criteria,FR,1,0,1,0,0,0
+5,the audit report shall include the total score of the audit which sums the indivual line items,FR,1,0,1,0,0,0
+6,the product shall be available for distribution as a packaged cd,FR,0,1,0,1,0,0
+8,velkat staff will be available for phone support between 7am 7pm m f to provide technical support to the izogn administrators,FR,0,1,0,1,0,0
+6,the product shall be easy to use 90 of users will be able to successfully reserve a conference room within 5 minutes of product use,FR,0,1,0,1,0,0
+3,the system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for program administrators nursing staff members planning purposes,FR,1,0,1,0,0,0
+3,dr susan poslusny and dr julie donalek are the only people who shall have access to students personal information,FR,0,1,0,1,0,0
+6,the product will update existing room equipment,FR,1,0,1,0,0,0
+10,the product shall protect the identity of the players the product shall provide players no access to information that might reveal the identity of another player,FR,0,1,0,1,0,0
+2,the product shall produce search results in an acceptable time,FR,1,1,0,0,1,0
+1,the product shall ensure that it can only be accessed by authorized users the product will be able to distinguish between authorized and unauthorized users in all access attempts,FR,1,1,0,0,1,0
+2,the product is expected to run on windows ce and palm operating systems,FR,0,1,0,1,0,0
+5,the product shall adhere to the corporate online availability schedule the application is brought down only within 98 of the scheduled outages per the availability schedule,FR,0,1,0,1,0,0
+4,only the system administrator shall be able to reset a revoked user logon account,FR,0,1,0,1,0,0
+1,the product shall be intuitive and self explanatory 90 of new users shall be able to start the display of events or activities within 90 minutes of using the product,FR,0,1,0,1,0,0
+10,when the hit results in sinking a ship the product shall notify the players that the ship was sunk,FR,1,0,1,0,0,0
+8,any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below,FR,0,1,0,1,0,0
+6,the product shall notify building personnel of equipment transport requests,FR,1,0,1,0,0,0
+3,program administrators and nursing staff members shall be able to add clinical classes or sections to a sequence of classes,FR,1,0,1,0,0,0
+2,the system shall have a professional appearance,FR,0,1,0,1,0,0
+2,the product shall allow the user to save the property search results,FR,1,0,1,0,0,0
+4,the disputes application shall interface with the statement database the statement database provides the transaction details to the disputes system all transaction details must be obtained from the statement database,FR,0,1,0,1,0,0
+3,the system shall be available for use between the hours of 8am and 6pm,FR,0,1,0,1,0,0
+8,customer shall be able to check the status of their prepaid card by entering in the pin number in under 5 seconds,FR,1,1,0,0,1,0
+1,the system shall display events in a vertical table by time,FR,1,0,1,0,0,0
+3,a program administrator nursing staff member shall be able to add a new nursing student to the system,FR,1,0,1,0,0,0
+14,users shall be able to reach the add drop and trade player pages with one click from the team owner s page,FR,0,1,0,1,0,0
+10,for each shot the product shall notify the players whether the shot was a hit or miss,FR,1,0,1,0,0,0
+15,the product must comply with the intranet page standards and requirements of enet securities 95 of the product look feel will be approved by the architecture group prior to implementation the remaining 5 will be corrected and approved within one month of product release,FR,0,1,0,1,0,0
+5,one insurance company shall not be able to view another insurance companys claim data,FR,0,1,0,1,0,0
+5,the audit report shall include the total number of recycled parts used in the estimate,FR,1,0,1,0,0,0
+10,for each shot the product shall mark the shot as a hit or miss on the defensive grid of the defensive player,FR,1,0,1,0,0,0
+15,the product interface should be fast the response time of the product interface should not exceed 2 seconds 90 of the time for 10 of the time the response time should not be more than 10 seconds not be more than 10 seconds,FR,0,1,0,1,0,0
+3,the system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced,FR,1,1,0,0,1,0
+9,prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep,FR,1,0,1,0,0,0
+8,website shall allow the izogn administrator to approve a review posted by a customer,FR,1,0,1,0,0,0
+3,clinical site information shall include but not be limited to the name of the site contact person and contact information,FR,0,0,0,0,0,1
+8,the website shall continue to operate if the payment gateway goes down,FR,0,1,0,1,0,0
+8,the website should appeal to all africans not only nigerians,FR,0,1,0,1,0,0
+5,the system shall retain the available recycled parts and suppliers returned from the search,FR,1,0,1,0,0,0
+3,a clinical class shall specify the course name lecture room requirements clinical site needs lecture instructor needs and clinical lab instructor needs,FR,0,0,0,0,0,1
+4,the disputes system shall accurately provide a list of possible reason codes for a given transaction the list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to according to the business rules defined for the disputes system,FR,1,1,0,0,1,0
+8,the product shall be able to be installed in the specified environment within 1 working day,FR,0,1,0,1,0,0
+4,the disputes system will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users,FR,0,1,0,1,0,0
+7,the system shall granularly control access rights to all major subsystems it should be possible to assign access rights to all subsystems independently,FR,0,1,0,1,0,0
+13,the brio portion of the wcs system must be able to export files in spreadsheet form microsoft excel and lotus 1 2 3 formats brio will provide buttons in the user interface that produce export reports in xls or 123 file formats,FR,1,1,0,0,1,0
+5,the user shall enter new ratings based on the audit report,FR,1,0,1,0,0,0
+6,the product shall allow for intuitive searching of available conference rooms,FR,1,1,0,0,1,0
+10,the product shall be intuitive and self explanatory nine out ten users shall be able to successfully complete a game with no training,FR,0,1,0,1,0,0
+6,each time a conference room is reserved the conference room schedule shall be updated to reflect the time and date of the reservation,FR,1,0,1,0,0,0
+3,all of the users shall be able to use the system after one day of training,FR,0,1,0,1,0,0
+8,the website design should be modern clean and concise,FR,0,1,0,1,0,0
+9,washing parameters will be updated during scheduled maintenance hours,FR,0,1,0,1,0,0
+4,100 of the cardmember and merchant services representatives shall use the disputes application regularly after a 2 day training course,FR,0,1,0,1,0,0
+11,the product shall ensure that only supervisors can advertise empty time slots the product must ensure that supervisors are allowed to access advertise empty time slots,FR,1,1,0,0,1,0
+5,the product shall be able to handle up to 1500 simultaneous users the system shall perform with 1500 users as a time,FR,0,1,0,1,0,0
+12,the product shall provide monitoring services the product shall be easy for system administrators and dbas to use after two weeks of usage,FR,1,1,0,0,1,0
+1,the system shall display data from the sync matrix 1 0 and exercise management tool 1 0 applications,FR,1,1,0,0,1,0
+3,for each class within a sequence for a cohort program administrators and nursing staff members shall be able to specify which quarter that class will be offered,FR,1,0,1,0,0,0
+8,the website will use standard internet conventions when interacting with the user,FR,0,1,0,1,0,0
+8,all customer information will be stored on a secure database accessible only to authorized personnel,FR,0,1,0,1,0,0
+3,the system shall interface with the student master server,FR,0,1,0,1,0,0
+15,98 of the user workstations shall meet the minimum software requirements prior to implementation microsoft internet explorer 5 0 microsoft net framework 1 1 microsoft internet explorer web controls,FR,0,1,0,1,0,0
+12,the product shall provide dynamic change support and transparent resource addition the product shall support transparent resource addition and dynamic change support to provide scalability and avoid service interruptions of more than 1 day,FR,1,1,0,0,1,0
+3,the system shall contain contact information e mail and phone number for all people relevant to the system including but not limited to staff members students lecture instructors clinical lab instructors and clinical site administrators,FR,1,0,1,0,0,0
+10,the product shall allow a player to initiate a game by selecting another available player from the list of players,FR,1,0,1,0,0,0
+1,the system shall provide charts for the activity or event actual versus assumed time,FR,1,0,1,0,0,0
+6,the product shall ensure that only company employees or external users with company approved user ids may have product access 100 of all logons shall be by either company employees or external users with company approved user ids,FR,0,1,0,1,0,0
+14,a secondary database will be used to store historical statistics and data,FR,0,1,0,1,0,0
+8,administrator shall be able to activate a pre paid card via the administration section in under 5 seconds,FR,1,1,0,0,1,0
+10,when the hit results in sinking a ship the product shall mark the ship as sunk on the offensive grid of the offensive player,FR,1,0,1,0,0,0
+10,the response time shall be fast enough to maintain the flow of the game the response time shall be no more than 2 seconds for 95 of responses and no more than 4 for the remaining responses,FR,0,1,0,1,0,0
+8,data integrity scripts will be run on a weekly basis to verify the integrity of the database,FR,0,1,0,1,0,0
+4,the disputes application shall manipulate and view business data users will not have direct access to data files or databases,FR,1,1,0,0,1,0
+7,the system shall not require additional third party licenses resulting in royalty fees,FR,0,1,0,1,0,0
+5,the product must support mozilla firefox 1 0 and above,FR,0,1,0,1,0,0
+7,the iqa subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly,FR,1,0,1,0,0,0
+9,defect reports will be available to technical units on a 24x7 basis,FR,0,1,0,1,0,0
+9,if the leads score falls within the high average score then it will be process by the ara functionality,FR,1,0,1,0,0,0
+4,if a user account is revoked it can only be re instantiated by the system administrator,FR,0,1,0,1,0,0
+9,the leads washing functionality will store any potential lead duplicates returned by the enterprise system,FR,1,0,1,0,0,0
+14,each page shall contain a navigation menu which shows the index into which the current page is contained,FR,0,1,0,1,0,0
+6,the product shall allow an organizer to invite other employees to meetings,FR,1,0,1,0,0,0
+9,the leads washing functionality will validate all leads received by the web service for valid data,FR,1,0,1,0,0,0
+8,website must be fully operational with msn tv2,FR,0,1,0,1,0,0
+14,each page shall contain a similar format with action items in one location and navigation buttons in a different location,FR,0,1,0,1,0,0
+3,the system shall be expected to manage the nursing program curriculum and class clinical scheduling for a minimum of 5 years,FR,1,1,0,0,1,0
+7,the system shall maintain consistent security any changes in user passwords and or permissions should take affect in all parts of the system,FR,0,1,0,1,0,0
+8,system shall let administrator add remove movies on the website in under 5 minutes entered movie information will be stored in the database and will now be available on the website,FR,1,1,0,0,1,0
+9,the leads washing functionality will compile both contact and academic scoring information for a total score,FR,1,0,1,0,0,0
+5,the product shall comply with insurance regulations regarding claims processing,FR,0,1,0,1,0,0
+12,the product shall be platform independent the product shall enable access to any type of development environment and platform,FR,0,1,0,1,0,0
+5,the product shall increase productivity of collision estimators 80 of the collision estimators shall agree their productivity has increase within 1 month of using the product,FR,0,1,0,1,0,0
+3,the report of needed classes shall include but not be limited to classes to be offered number of sections needed number of labs needed and room types needed,FR,1,0,1,0,0,0
+5,the product shall free of computer viruses,FR,0,1,0,1,0,0
+3,the system shall be able to display a printable summary for individual cohorts which will include the students enlisted the program of study sequence of classes cohort progress through the program and timeline of completion,FR,1,0,1,0,0,0
+11,the system shall have high availability every day of the year the system must be available for use between 12 00am and 6 00pm all days of the year,FR,0,1,0,1,0,0
+6,the product must be able to interface with any html browser the product shall transmit data between the user and the product without problems the product shall display html properly in 80 of all html browsers tested minimum is to test 8 browsers,FR,0,1,0,1,0,0
+4,the disputes system must allow the users to select disputable transactions based on the age of the transaction from a user interface and initiate a dispute ticket retrieval request or chargeback notification on the selected transaction,FR,1,0,1,0,0,0
+6,the product will display an available status for unreserved conference rooms,FR,1,0,1,0,0,0
+8,the website should cater to all tribes in nigeria,FR,0,1,0,1,0,0
+5,the appearance of the product shall appear professional,FR,0,1,0,1,0,0
+15,new branches complexes districts regions and revenue expense accounts added to the bdw must be reflected in the rfs system 100 of the entities mentioned above available as of october month end will be loaded into the rfs system prior to the budget start process,FR,0,1,0,1,0,0
+8,shall be able to stream purchased movie via windows media player for up to 2 days aftere purchase date,FR,1,0,1,0,0,0
+10,the product shall make inactive players unavailable for selection from the list of players,FR,1,0,1,0,0,0
+4,the disputes system shall provide the users the ability to view the history of all activities that have occurred on the dispute case,FR,1,0,1,0,0,0
+6,the product will notify employees of meeting invitations,FR,1,0,1,0,0,0
+3,program administrators nursing staff members shall have the ability to modify information relating to a nursing student including student id student name phone number e mail status full time or part time and program of study,FR,1,0,1,0,0,0
+5,the product must support internet explorer 5 5 and above,FR,0,1,0,1,0,0
+5,the product shall comply with the estimatics laws relating to recycled parts usage,FR,0,1,0,1,0,0
+2,the cma report shall be returned no later 60 seconds after the user has entered the cma report criteria,FR,1,1,0,0,1,0
+11,the product shall be internet browser independent the product must run using internet explorer and netscape navigator,FR,0,1,0,1,0,0
+8,system shall let existing customers log into the website with their email address and password in under 5 seconds,FR,1,1,0,0,1,0
+8,the streaming server will support a maximum of 700 movies new servers can be added to support more movies,FR,0,1,0,1,0,0
+6,the product must be developed with the j2se j2ee programming language libraries,FR,0,1,0,1,0,0
+6,the product shall be used in office environments,FR,0,1,0,1,0,0
+10,at the start of each turn the product shall notify each player of his or her status,FR,1,0,1,0,0,0
+4,the disputes application must conform to the legal requirements as specified by the merchant operating regulations,FR,0,1,0,1,0,0
+3,a class shall be either a non clinical class or a clinical class,FR,0,0,0,0,0,1
+6,the product shall have an intuitive user interface,FR,0,1,0,1,0,0
+8,all credit card information will be secured on the server and only accessible by authorized izogn administrators information will be encrypted in the database,FR,0,1,0,1,0,0
+8,izognmovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream african movies,FR,0,1,0,1,0,0
+2,the product shall prevent its data from incorrect data being introduced,FR,0,1,0,1,0,0
+4,all business rules specified in the disputes system shall be in compliance to the guidelines of regulation e and regulation z,FR,0,1,0,1,0,0
+4,a list of all disputes cases that meet the entered search criteria must be provided to the user the list of cases must differentiate the type and or status of the case by color coding the line item in the list for example all open cases will be yellow and all closed cases will be gray,FR,1,1,0,0,1,0
+4,100 of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course,FR,0,1,0,1,0,0
+3,the system shall use the organization s standard virus protection software to help monitor threats to itself,FR,0,1,0,1,0,0
+2,every user of the system shall be authenticated and authorized,FR,1,1,0,0,1,0
+7,the system shall allow on demand generation of all inventory quantity adjustment documents since certain point of time,FR,1,0,1,0,0,0
+8,all credit card information will be encrypted in the database,FR,0,1,0,1,0,0
+2,the product shall use symbols and words that are naturally understandable by the realtor community,FR,0,1,0,1,0,0
+3,program administrators nursing staff members shall have the ability to modify information relating to cohorts including cohort identifier program of study preferred sequence of classes and quarters that a cohort will be taking specific classes,FR,1,0,1,0,0,0
+3,fit criterion dr susan poslusny and karen sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with campusconnect,FR,0,1,0,1,0,0
+13,all changes updates and additions to the wcs system shall be updated in the wcs developer and wcs user guides every change must be reflected in wcs system documentation,FR,0,1,0,1,0,0
+4,the disputes system must provide search functionality the search method must include the ability to search by 1 the dispute case number 2 the merchant account number 3 the cardmember account number and 4 the issuer number in addition to the above criteria the search functionality must further allow the user to limit the results of the search by a date range the type of dispute ticket retrieval request or chargeback notification the case status open closed or all and the dispute reason code,FR,1,0,1,0,0,0
+1,if projected the data must be readable on a 10x10 projection screen 90 of viewers must be able to read event activity data from a viewing distance of 30,FR,0,1,0,1,0,0
+6,the product shall be able to display calendar dates and times according to the user s locale 90 of survey respondents from each target market country will find that the date and time formatting of the product is correct,FR,1,1,0,0,1,0
+5,the estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers,FR,1,0,1,0,0,0
+2,the product shall generate a cma report in an acceptable time,FR,1,1,0,0,1,0
+3,the system will notify affected parties when changes occur affecting cohorts including but not limited to changes to the sequence for a cohort s program of study and changes to a given week s schedule lab cancelled this week due to instructor illness,FR,1,0,1,0,0,0
+8,a customer can only stream a movie if they purchased it and are within the 2 day viewing period,FR,0,1,0,1,0,0
+8,the streaming server will have anti virus software to prevent infection of malicious viruses,FR,0,1,0,1,0,0
+8,only authorized personnel can access sales information,FR,0,1,0,1,0,0
+7,formula substitutionary ingredients shall be kept in persisted order,FR,1,0,1,0,0,0
+12,the product shall comply with city of chicago application development guide framework application development framework will provide structured graphical user interface,FR,0,1,0,1,0,0
+10,the product shall maintain a list of players,FR,1,0,1,0,0,0
+9,the leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead,FR,1,0,1,0,0,0
+14,new system version releases shall be released at the beginning of each nfl season,FR,0,1,0,1,0,0
+7,pme subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order,FR,0,1,0,1,0,0
+1,the product shall respond fast to keep up to date data in the display,FR,0,1,0,1,0,0
+7,the system shall meet all applicable accounting standards the final version of the system must successfully pass independent audit performed by a certified auditor,FR,0,1,0,1,0,0
+14,application updates shall occur between 3am and 6 am cst on wednesday morning during the middle of the nfl season,FR,0,1,0,1,0,0
+8,izogn administrator must be able to update the category listings on the website within 2 minutes,FR,1,1,0,0,1,0
+13,the wcs system shall have the ability to connect other designated wcs databases currently not included in the system,FR,0,1,0,1,0,0
+8,system shall automatically update the main page of the website every friday and show the 4 latest movies that have been added to the website,FR,1,0,1,0,0,0
+5,the user shall easily locate instructions while using the product user help can be found within 90 of the system,FR,0,1,0,1,0,0
+4,only users with update access must be able to initiate dispute requests,FR,1,1,0,0,1,0
+13,the interface shall be easy to use 90 of users should be able to successfully use the system to generate a report on their first use the interface should adhere to ibm usability standards,FR,0,1,0,1,0,0
+10,the product shall simulate the look of ships at sea,FR,0,1,0,1,0,0
+1,the top 1 4 of the table will hold events that are to occur sequentially,FR,1,1,0,0,1,0
+5,product installations and upgrades shall be handled by the middleware technology team within established launch time frames,FR,0,1,0,1,0,0
+3,the system will notify affected parties when changes occur affecting clinicals including but not limited to clinical section capacity changes and clinical section cancellations,FR,1,0,1,0,0,0
+13,the wcs system shall have the ability to include data for regions outside the united states and be accessed by users outside of the united states if approved by ccr management,FR,0,1,0,1,0,0
+5,the available recycled parts information and their suppliers shall be returned to the user,FR,1,0,1,0,0,0
+3,classes for a given cohort shall not conflict with regards to the time and day that they are offered,FR,1,0,1,0,0,0
+3,the system shall allow a program administrator nursing staff member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class,FR,1,0,1,0,0,0
+2,the system shall allow a real estate agent to query mls information,FR,1,0,1,0,0,0
+3,a non clinical class shall specify the course name lecture room requirements and instructor needs,FR,0,0,0,0,0,1
+9,the process must fit within the processing time conditions set forth by the auto rep assignment process in which a lead is assigned within 3 minutes of the total life cycle,FR,0,1,0,1,0,0
+3,the system shall use symbols and words that are naturally understandable by the user community,FR,0,1,0,1,0,0
+10,the product shall allow a user to identify himself or herself as a player,FR,1,0,1,0,0,0
+5,the preferred repair facility ratings shall be saved within 5 seconds the save shall occur within 5 seconds,FR,1,1,0,0,1,0
+3,the system shall be intuitive to the program administrators nursing staff members,FR,0,1,0,1,0,0
+6,every registered user will have access to the product s support site via the internet 70 of registered users shall find a solution to their problem within 5 minutes of using the support site,FR,0,1,0,1,0,0
+6,the product shall ensure that the database s data corresponds to the data entered by the user each conference room reservation in the system will contain the same information as was entered by the user,FR,0,1,0,1,0,0
+3,program administrators and nursing staff members shall be able to add a new cohort to the system identified by start month and year,FR,1,0,1,0,0,0
+2,the product shall allow the user to view previously downloaded search results cma reports and appointments,FR,1,0,1,0,0,0
+10,once a game is initiated the product shall display an offensive grid to each player,FR,1,0,1,0,0,0
+6,the product shall display room equipment according to search parameters,FR,1,0,1,0,0,0
+6,the product shall be translated into foreign languages other than the target market countries languages in future releases for each emerging target market it shall take no more than 5 days to configure the product for that market s language,FR,0,1,0,1,0,0
+6,aside from server failure the software product shall achieve 99 99 up time,FR,0,1,0,1,0,0
+8,website shall request and authorize credit card payment before allowing a user to stream a movie,FR,1,0,1,0,0,0
+3,the system will notify affected parties when changes occur affecting classes including but not limited to class cancellations class section detail changes and changes to class offerings for a given quarter,FR,1,0,1,0,0,0
+6,the product shall give users feedback when necessary 80 of the users surveyed report that the product accurately confirms their actions,FR,0,1,0,1,0,0
+8,the product shall be easy for customers with novice skills on the internet to purchase and watch streaming movies customers should be able to purchase and watch a pre determined movie in under 3 minutes,FR,1,1,0,0,1,0
+3,the system shall be capable of processing 100 of nursing students and their classes for the next 10 years,FR,0,1,0,1,0,0
+5,the preferred repair facility ratings shall be saved by the system,FR,1,0,1,0,0,0
+4,the disputes system shall provide update access capability for authorized users of the application,FR,1,1,0,0,1,0
+2,the search results shall be returned no later 30 seconds after the user has entered the search criteria,FR,1,1,0,0,1,0
+12,the product shall information security the product shall enable privacy by encryption ws security and integrity checking,FR,0,1,0,1,0,0
+5,only collision estimators shall search for recycled parts users without the collision estimator role shall not have access to the search for recycled parts,FR,1,1,0,0,1,0
+8,the php code will comply with pear standards,FR,0,1,0,1,0,0
+10,when the hit results in sinking a ship the product shall mark the ship as sunk on the defensive grid of the defensive player,FR,1,0,1,0,0,0
+6,the product shall be expected to operate for at least 5 years for each customer installation,FR,0,1,0,1,0,0
+4,the disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications,FR,0,1,0,1,0,0
+8,the server will support a maximum of 1 000 simultaneous users,FR,0,1,0,1,0,0
+6,the product must be able to interface with various email servers the product shall be able to send email,FR,0,1,0,1,0,0
+5,the adjuster shall enter the preferred repair facility on the estimate assignment,FR,1,0,1,0,0,0
+4,all business rules specified in the disputes system shall be in compliance with the merchant operating regulations,FR,0,1,0,1,0,0
+10,for each shot the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss,FR,1,0,1,0,0,0
+6,the product must be designed using design patterns and coding best practices 90 of maintenance software developers are able to integrate new functionality into the product with 2 working days,FR,0,1,0,1,0,0
+13,the system shall be displayable on any work computer a ccr user may have the system interface shall be formatted to display at 800 by 600 pixel resolution,FR,0,1,0,1,0,0
+4,the disputes applications shall interface with the merchant information database the merchant information database provides detailed information with regard to the merchant all merchant detail information shall be obtained from the merchant information database,FR,0,1,0,1,0,0
+2,the user interface shall have standard menus buttons for navigation,FR,0,1,0,1,0,0
+3,the system shall achieve 95 up time,FR,0,1,0,1,0,0
+15,the rfs system should be available 24 7 especially during the budgeting period the rfs system shall be available 90 of the time all year and 98 during the budgeting period 2 of the time the system will become available within 1 hour of the time that the situation is reported,FR,0,1,0,1,0,0
+2,the system shall be intuitive and self explanatory,FR,0,1,0,1,0,0
+6,a database management system such as oracle db2 mysql or hsql will need to be integrated with the product,FR,0,1,0,1,0,0
+14,the commissioner will be the only authorized user per league to adjust league settings,FR,0,1,0,1,0,0
+8,daily usage statistics should be logged and accessible by the administrator,FR,1,1,0,0,1,0
+8,only registered customers can purchase streaming movies,FR,0,1,0,1,0,0
+3,the verbiage used within the system shall be consistent with standard english and the terminology of the national nursing community,FR,0,1,0,1,0,0
+4,the disputes system shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system a detailed history of the actions taken on the case including the date and the user that performed the action must be maintained for auditing purposes,FR,1,0,1,0,0,0
+9,no lead evaluation will complete in a time period longer than 25 seconds for 97 of all leads processed,FR,0,1,0,1,0,0
+2,the system shall be able to call the seller or buyer to schedule an appointment,FR,1,0,1,0,0,0
+12,the product shall be robust the product shall have fault avoidance based on standards adoption,FR,0,1,0,1,0,0
+3,the system shall operate within the windows xp professional operating system,FR,0,1,0,1,0,0
+7,product formula substitutionary ingredients shall be entered automatically by the pfe subsystem,FR,1,0,1,0,0,0
+10,the product shall prevent a player from viewing the offensive or defensive grids of the other player,FR,1,0,1,0,0,0
+5,the product shall achieve a 98 uptime the product shall not fail more than 2 of the available online time,FR,0,1,0,1,0,0
+6,the product must be highly configurable for use with various database management systems for the end users 80 of end users are able to integrate new database management systems with the product without changing the product s software code,FR,0,1,0,1,0,0
+1,the system shall link events back to either the sync matrix 1 0 or the exercise managment tool 1 0 applications for modifications,FR,1,1,0,0,1,0
+4,the disputes application shall ensure that only authorized users are allowed to logon to the application,FR,0,1,0,1,0,0
+10,if the shot was marked as a miss the product shall change the status of the defensive player to offensive,FR,1,0,1,0,0,0
+4,the maximum wait time for a user navigating from one screen to another within the disputes application shall be no more than 5 seconds,FR,0,1,0,1,0,0
+3,program administrators nursing staff members are the only people who shall have access to clinical site details,FR,0,1,0,1,0,0
+8,while streaming a movie buffering should only occur if there is latency in the user s connection,FR,0,1,0,1,0,0
+6,the product shall be able to store new room equipment,FR,1,0,1,0,0,0
+3,program administrators nursing staff members shall have the ability to modify information relating to a clinical lab section including the clinical site name the department section for the lab the class instructor day and time of lab and contact information,FR,1,0,1,0,0,0
+7,pme subsystem shall allow for a product to exist in more than one submenu,FR,1,0,1,0,0,0
+5,the average number of recycled parts records per day shall be 50 000,FR,0,1,0,1,0,0
+3,the system shall cater to 10 simultaneous users from 9am to 5pm,FR,0,1,0,1,0,0
+6,the product shall be available for distribution via the internet as a binary or zip file,FR,0,1,0,1,0,0
+5,the estimator shall apply selected recycled parts to the collision estimate,FR,1,0,1,0,0,0
+4,the disputes application must maintain a detailed history of every action that a user takes on a dispute case this ensures a complete audit trail if questions arise later on with regard to a particular dispute case,FR,1,1,0,0,1,0
+5,the system shall return a list of repair facilities within the radius if the preferred repair facility cannot be determined,FR,1,0,1,0,0,0
+6,the product will record meeting acknowledgements,FR,1,0,1,0,0,0
+8,the website will allow customers to search for movies by title actor or director,FR,1,0,1,0,0,0
+3,program administrators and nursing staff members shall be able to add a new clinical lab section for an existing clinical class into the system,FR,1,0,1,0,0,0
+7,the rms system shall have windows xp look and feel and use gui futures making its use intuitive,FR,0,1,0,1,0,0
+8,system shall let customers register on the website as a pay as you go user in under 5 minutes,FR,1,1,0,0,1,0
+3,only authorized users shall have access to students personal information,FR,0,1,0,1,0,0
+2,the system shall update or create new property listings in the mls,FR,1,0,1,0,0,0
+5,the audit report shall be available to other adjusters at later points in time,FR,1,0,1,0,0,0
+8,the system will provide a 24 hour 800 toll free number for support to its customers,FR,0,1,0,1,0,0
+11,the system shall be easy to use by callers and supervisors callers and supervisors must be able to accomplish any system task within 2 minutes,FR,0,1,0,1,0,0
+6,the product must be able to interface with various database management systems the product shall communicate successfully with the database management system on 100 of all transactions,FR,0,1,0,1,0,0
+7,the system shall generate inventory quantity adjustment document based on product daily sales data and product formulas,FR,1,0,1,0,0,0
+8,the website shall not be offensive to religious or ethnic groups,FR,0,1,0,1,0,0
+4,the disputes system shall provide view access capability for authorized users of the application,FR,0,1,0,1,0,0
+8,the website shall achieve 99 5 up time,FR,0,1,0,1,0,0
+4,the disputes system must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant,FR,1,0,1,0,0,0
+4,the disputes application shall support 350 concurrent users without any degradation of performance in the application,FR,0,1,0,1,0,0
+5,for estimators the product shall be able to be operated in a repair facility during dirty and noisy conditions,FR,0,1,0,1,0,0
+8,the website should use flash to provide animation on the home page,FR,0,1,0,1,0,0
+4,all additions of new users and modifications to user s access shall be recorded on the user report,FR,1,0,1,0,0,0
+8,website must interface with the cybersource api to process credit card transactions,FR,0,1,0,1,0,0
+8,the website shall be attractive to all audiences the website shall appear to be fun and the colors should be bright and vibrant,FR,0,1,0,1,0,0
+9,if the leads score falls within the low average then it will be returned to the supplying vendor,FR,1,0,1,0,0,0
+1,the product shall be available during normal business hours as long as the user has access to the client pc the system will be available 99 of the time during the first six months of operation,FR,0,1,0,1,0,0
+13,the wcs system shall use appropriate nomenclature and terminology as defined by the corporate community grants organization all interfaces and reports will undergo usability tests by ccr users,FR,0,1,0,1,0,0
+6,the customer shall be able to easily integrate new building maps with the product throughout the product s lifecycle integration of new maps with the product shall be possible with little to no support from product support staff,FR,0,1,0,1,0,0
+5,users shall feel satisfied using the product 85 of all users will be satisfied with the product,FR,0,1,0,1,0,0
+6,the product will function alongside server software on any operating system where the java runtime can be installed,FR,0,1,0,1,0,0
+7,product formula ingredients shall allow defining substitutionary ingredients,FR,1,0,1,0,0,0
+4,the disputes system must provide different levels of access with regard to disputes case initiation and follow up actions,FR,0,1,0,1,0,0
+1,the system shall display the local and exercise time in separate clocks,FR,1,0,1,0,0,0
+3,a cohort shall be associated to one program of study offered by the department,FR,1,0,1,0,0,0
+5,only valid data shall be entered into the system no invalid data shall be entered into the system,FR,0,1,0,1,0,0
+11,the interface shall have a simple look in the interface and usability survey 90 of beta testers must report that the interface is adequately simple,FR,0,1,0,1,0,0
+6,the product shall be able to send meeting notifications via different kinds of end user specified methods,FR,1,0,1,0,0,0
+10,when the offensive player takes a shot the product shall simulate the sound of a ship at sea,FR,1,1,0,0,1,0
+3,a program of study shall consist of a program name and listing of required classes both clinical and non clinical that must be completed,FR,0,0,0,0,0,1
+6,the product shall assign the organizers contact information to each meeting they create,FR,1,0,1,0,0,0
+12,the product shall provide gui based monitoring services system administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support,FR,1,1,0,0,1,0
+13,the wcs system shall be run in a windows environment the wcs shall be accessed by users through the internet on an ibm computer running a windows 2000 or above operating system,FR,0,1,0,1,0,0
+3,program administrators and nursing staff members shall be able to add new classes for the nursing department into the system,FR,1,0,1,0,0,0
+3,the system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students,FR,0,1,0,1,0,0
+5,the product shall comply with corporate color scheme,FR,0,1,0,1,0,0
+14,users shall be able to view at least 25 nfl player statistics and points on each page,FR,1,1,0,0,1,0
+8,when streaming a movie the buffering time should take no longer than 10 seconds plus any latency on the user s connection,FR,0,1,0,1,0,0
+13,the system must use a point and click interface 100 of all selection and navigation functionality must be able to be activated selected by either a mouse or a keyboard,FR,0,1,0,1,0,0
+11,the system shall be responsive at the depaul teleservices center when a supervisor uses the system to view a callers schedule the system response time must be no more than 2 seconds 90 of the time and no more than 5 seconds the rest of the time,FR,0,1,0,1,0,0
+1,the system shall display the events in a graph by time,FR,1,0,1,0,0,0
+2,the product shall be able support 1000 simultaneous users,FR,0,1,0,1,0,0
+6,the product shall have a conservative and professional appearance,FR,0,1,0,1,0,0
+8,the product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years,FR,0,1,0,1,0,0
+10,when a shot is marked as a miss the product shall simulate the sound of a shot missing its target,FR,1,1,0,0,1,0
+10,once a game has been initiated the product shall make the players assigned to the game unavailable for selection from the list of players,FR,1,0,1,0,0,0
+8,all registered customer information shall be stored and maintained in the database even after the customer cancels their account,FR,1,0,1,0,0,0
+10,once a game is initiated the product shall allow each player to position their 5 ships on their respective defensive grids,FR,1,0,1,0,0,0
+10,the product shall end a game when a hit by the offensive player results in sinking the last of the defensive player s ships which had not been previously marked as sunk,FR,1,0,1,0,0,0
+13,the wcs system must run queries to the wcs databases once again on a specified day to update the available data available to ccr users queries must be made to external databases for data refresh once a week,FR,1,1,0,0,1,0
+8,movies shall be encoded for 56k and 256k streams,FR,0,1,0,1,0,0
+5,only adjusters with a supervisor role can update preferred repair facility ratings users without the supervisor role cannot access the repair facility ratings,FR,1,1,0,0,1,0
+5,the user shall select to save the preferred repair facility ratings,FR,1,0,1,0,0,0
+12,the product shall have security the product shall provide authentication and authorization,FR,0,1,0,1,0,0
+8,the website shall continue to operate if the streaming server goes down,FR,0,1,0,1,0,0
+10,the product shall allow the player to position ships diagonally on their grid,FR,1,0,1,0,0,0
+7,the system shall allow entering storing and modifying product formulas,FR,1,0,1,0,0,0
+10,if the shot was marked as a hit the product shall allow the offensive player to define a shot,FR,1,0,1,0,0,0
+4,the disputes system shall prevent the creation of duplicate dispute requests 100 of the time,FR,1,1,0,0,1,0
+1,the system shall color code events according to their variance from current time,FR,1,1,0,0,1,0
+5,the product shall interface with the choiceparts system once per day at approximately 1 00 am,FR,0,1,0,1,0,0
+8,the website shall be capable of supporting 100 000 customers,FR,0,1,0,1,0,0
+8,all movies shall be streamed on demand at any time of the day,FR,1,1,0,0,1,0
+8,the website shall prevent its data from being corrupted when incorrect data is entered in,FR,0,1,0,1,0,0
+7,the system shall allow generation of inventory quantity adjustment documents on demand,FR,1,0,1,0,0,0
+2,the system shall notify the realtor when a seller or buyer responds to an appointment request,FR,1,0,1,0,0,0
+13,the wcs system shall be available at all times as long as ibm s internal intranet w3 is accessible the wcs system will be available 95 of the time ibm s internal intranet w3 is available,FR,0,1,0,1,0,0
+8,system shall let customers register on the website as a unlimited movie subscriber user in under 10 minutes,FR,1,1,0,0,1,0
+11,on a 112k connection or faster the system response time for all operations must be no more than 3 seconds 90 of the time,FR,0,1,0,1,0,0
+13,the system interface will use ccr nomenclature the system must use the same nomenclature used in the existing wcs system and reports,FR,0,1,0,1,0,0
+9,if the leads score falls within the medium average then it will be set for manual verification by an enrollment coordinator through the eleads system,FR,1,0,1,0,0,0
+2,the user shall be able to download appointments and contact information for clients,FR,1,0,1,0,0,0
+4,all screens created as part of the disputes application must comply with corporate standards for interface creation,FR,0,1,0,1,0,0
+6,the product will require collaboration with a database management system dbms the dbms may be located on the same machine as the product or on a separate machine residing on the same computer network,FR,0,1,0,1,0,0
+14,each team owner will need to use a username and password in order to be authenticated to reach the team owner s page,FR,0,1,0,1,0,0
+10,the notification of the game ending will include the reason the game is ended i e a player has won the game or a player has ended the game,FR,1,0,1,0,0,0
+3,program administrators nursing staff members shall have the ability to modify information relating to a clinical site including the clinical site name site contact person contact information and address,FR,1,0,1,0,0,0
+13,a user shall be able to use the system without instruction after a short amount of time after one use a user should understand and remember 90 of the system usage and navigation,FR,0,1,0,1,0,0
+5,the vehicle location shall include street address city state and zipcode,FR,0,0,0,0,0,1
+15,changes to revenue and expense formulae must be applied to the rfs system every year prior to the budgeting process start revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and pcg finance,FR,0,1,0,1,0,0
+8,all streaming movie sales will be logged in the database and accessible by the administrator,FR,1,1,0,0,1,0
+10,the product shall prevent the player from overlapping ships on their grid,FR,1,0,1,0,0,0
+2,the system shall display clear property images in the search results,FR,1,0,1,0,0,0
+6,the product shall have the ability to send meeting reminders to employees,FR,1,0,1,0,0,0
+8,the owner shall have free access to all of the streaming movies,FR,0,1,0,1,0,0
+3,the system shall be able to display a printable summary for individual clinical sites which will include information on labs being held at that site for the given quarter clinical site general information on labs held at that location dates and times of all labs held there,FR,1,0,1,0,0,0
+5,the product shall comply with corporate user interface guidelines,FR,0,1,0,1,0,0
+8,the product shall use symbols and words that are naturally understandable by users familiar with websites,FR,0,1,0,1,0,0
+10,the product shall allow a player to position ships horizontally on their grid,FR,1,0,1,0,0,0
+6,the product shall update existing conference rooms,FR,1,0,1,0,0,0
+4,the disputes system must prevent users from accessing any dispute cases that do not belong to their cardholder base,FR,0,1,0,1,0,0
+8,users should only have to navigate through a maximum of 4 pages to create an account with the website,FR,0,1,0,1,0,0
+10,the product shall provide players no access to information that might reveal the identity of another player,FR,0,1,0,1,0,0
+8,website shall allow customers to add their own movie review for a selected movie,FR,1,0,1,0,0,0
+10,when a game is ended the product shall allow each player to identify himself or herself as an available player in the list of players,FR,1,0,1,0,0,0
+12,the product shall continue to operate during upgrade change or new resource addition the product shall be able to continue to operate with no interruption in service due to new resource additions,FR,0,1,0,1,0,0
+3,program administrators and nursing staff members shall have the ability to specify which classes are required for a program of study,FR,1,0,1,0,0,0
+8,izogn administrator must be able to add new products to the website within 2 minutes,FR,1,1,0,0,1,0
+8,system shall let the administrator add remove categories on the website in under 5 minutes,FR,1,1,0,0,1,0
+9,the leads washing functionality will insert all leads captured by the web service,FR,1,0,1,0,0,0
+7,pme subsystem shall allow building product menus based on the list of products kept in the accounting system,FR,1,0,1,0,0,0
+13,the system shall use ibm and ccr branding standards the interface must have one ibm logo and one ccr logo,FR,0,1,0,1,0,0
+14,the application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network,FR,0,1,0,1,0,0
+5,the audit report shall include the number of available recycled parts from the original search results,FR,1,0,1,0,0,0
+3,the system shall be easy to use by the program administrators nursing staff members,FR,0,1,0,1,0,0
+6,the product will be available for licensing as a one server two five servers or five or more servers license,FR,0,1,0,1,0,0
+7,recreation of inventory quantity adjustment for the period of previous 30 days shall take no more than 30min,FR,1,1,0,0,1,0
+3,the system shall be able to display a printable summary for individual clinical labs which will include but not be limited to class name class number lab section listing of students enrolled instructor day s time and location,FR,1,0,1,0,0,0
+14,the message board shall contain the 5 most recently posted messages on the league page the messages will contain up to the first 150 characters of the message,FR,1,0,1,0,0,0
+12,the product shall be updated on a regular basis the product will have a new major feature introduced every six months and quarterly maintenance releases every six months,FR,0,1,0,1,0,0
+3,the response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds,FR,0,1,0,1,0,0
+5,the product shall be able to handle 10 000 concurrent users within 2 years of the initial launch,FR,0,1,0,1,0,0
+1,the system shall allow a user to define the time segments,FR,1,0,1,0,0,0
+4,any disputes cases that have been closed for over 6 months must be purged from the online disputes database,FR,1,0,1,0,0,0
+1,the system shall have a mdi form that allows for the viewing of the graph and the data table,FR,1,0,1,0,0,0
+10,when a game is ended the product shall notify the players that the game is ended,FR,1,0,1,0,0,0
+6,the product shall use a standard navigation menu familiar to most web users,FR,0,1,0,1,0,0
+10,when the hit results in sinking a ship the product shall indicate the type of ship sunk on the defensive grid of the defensive player,FR,1,0,1,0,0,0
+2,the product shall have a consistent color scheme and fonts,FR,0,1,0,1,0,0
+3,program administrators nursing staff members shall be able to create a new program of study,FR,1,0,1,0,0,0
+2,out of 1000 accesses to the system the system is available 999 times,FR,0,1,0,1,0,0
+3,2 out of 3 program administrators nursing staff members shall successfully be able to use the system to manage the scheduling of classes and clinicals,FR,1,1,0,0,1,0
+12,the product shall operate with every platform the product shall accommodate any new technology without any change in its architecture,FR,0,1,0,1,0,0
+2,the realtor shall be able to retrieve a map showing property locations for a specified area,FR,1,0,1,0,0,0
+5,the adjuster shall request a recycled parts audit of the collision estimate,FR,1,0,1,0,0,0
+4,the list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status,FR,0,1,0,1,0,0
+8,viewing a movie details the website will display the movies description actor and director entered in by the administrator,FR,1,0,1,0,0,0
+11,the system must be available for use between 7 00am and 11 59pm all days of the year,FR,0,1,0,1,0,0
+2,the product shall be available for use 24 hours per day 365 days per year,FR,0,1,0,1,0,0
+3,we must be able to interface with any html browser,FR,0,1,0,1,0,0
+12,the product shall be able to process all transactions the product shall process minimum of 1 million transactions per year,FR,0,1,0,1,0,0
+10,the product shall allow the player to position ships vertically on their grid,FR,1,0,1,0,0,0
+5,the recycled parts search results provided to the estimator shall be retrieved by the system,FR,1,0,1,0,0,0
+6,the product must make use of web application server technology open source examples include apache web server tomcat and the jboss application server,FR,0,1,0,1,0,0
+8,system shall allow users to update their billing and contact information via the my account section of the website,FR,1,0,1,0,0,0
+6,the product shall allow the user to select a chosen language from one of the target market countries,FR,1,1,0,0,1,0
+1,the system shall display events or activities,FR,1,0,1,0,0,0
+6,the product shall allow for customization of start page and views preferences,FR,0,1,0,1,0,0
+12,the product shall process messages within 2 seconds the product shall have a maximum message processing time of 2 seconds,FR,1,1,0,0,1,0
+3,program administrators and nursing staff members shall be able to add new classes to a sequence of classes,FR,1,0,1,0,0,0
+3,a clinical lab section shall include the clinical site name the class instructor day and time of the lab,FR,0,0,0,0,0,1
+1,the system shall filter data by venues and key events,FR,1,0,1,0,0,0
+3,program administrators nursing staff members shall have the ability to modify information relating to a program of study within the nursing department including the program of study name and required classes for that program of study,FR,1,0,1,0,0,0
+5,the audit report shall be displayed to the user,FR,1,0,1,0,0,0
+10,once a game is initiated the product shall display a defensive grid to each player,FR,1,0,1,0,0,0
+5,the search radius shall be between 1 and 30 miles,FR,0,0,0,0,0,1
+2,the product shall be able to support multiple remote users,FR,1,0,1,0,0,0
+2,the product shall be capable of handling the existing 1000 users this number is expected to grow 5 times within the next year,FR,0,1,0,1,0,0
+1,the display shall have two regions left 2 3 of the display is graphical right 1 3 of the display is a data table,FR,0,1,0,1,0,0
+15,the rfs system should be able to easily interface with the bdw environment in order to load the data 7 data files shall be received from the bdw and loaded into the rfs system within 3 hours one day prior to the start of budgeting process every year the data will be as of october month end test files 7 shall be loaded up to 5 times throughout the year from the bdw,FR,0,1,0,1,0,0
+3,the system shall able to operate within a business office environment typical of the nursing department at depaul university,FR,0,1,0,1,0,0
+14,the application shall run on a web application server,FR,0,1,0,1,0,0
+8,the system shall notify customers of changes to its information policy,FR,1,0,1,0,0,0
+12,the product shall be robust with fault tolerance the product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures,FR,0,1,0,1,0,0
+13,rreports must be easy to generate eports must be generated within one button click and exported within one button click after selecting the report,FR,0,1,0,1,0,0
+6,the product shall record different meeting types,FR,1,0,1,0,0,0
+3,program administrators and nursing staff members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class,FR,1,0,1,0,0,0
+6,the product shall store new conference rooms,FR,1,0,1,0,0,0
+6,the product shall record meeting entries,FR,1,0,1,0,0,0
+8,the website shall make its user aware of its information practices before collection data from them via a privacy policy accessible on all pages of the website,FR,1,1,0,0,1,0
+10,the product shall maintain the status of each player for a turn either offensive or defensive,FR,1,0,1,0,0,0
