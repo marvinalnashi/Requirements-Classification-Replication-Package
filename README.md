@@ -1,27 +1,9 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![Forks][forks-shield]][forks-url]
 [![project_license][license-shield]][license-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -46,22 +28,41 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <a href="#built-with">Built With</a>
+      <a href="#introduction">Introduction</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#why-this-work-matters">Why this work matters</a>
+    </li>
+    <li>
+      <a href="#research-motivation">Research motivation</a>
+    </li>
+    <li>
+      <a href="#purpose-of-the-replication-package">Purpose of the replication package</a>
+    </li>
+    <li>
+      <a href="#research-questions">Research questions</a>
+    </li>
+    <li>
+      <a href="#experimental-framework-and-design">Experimental framework and design</a>
+    </li>
+    <li>
+      <a href="#contribution">Contribution</a>
+    </li>
+    <li>
+      <a href="#installation">Installation</a>
+    </li>
+    <li>
+      <a href="#interpreting-the-results">Interpreting the results</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#figures">Figures</a></li>
+        <li><a href="#numerical-outputs">Numerical outputs</a></li>
+        <li><a href="#how-the-results-connect-to-the-research-questions">How the results connect to the research questions</a></li>
+        <li><a href="#recommended-next-steps-for-researchers">Recommended next steps for researchers</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li>
+      <a href="#citations-and-references">Citations and references</a>
+    </li>
   </ol>
 </details>
 
@@ -190,9 +191,9 @@ The application performs the following major steps automatically:
             Logistic Regression
             Both are applied separately to PROMISE and PURE.
 
-3.  Transformer model evaluation
+3.  Transformer-based model evaluation
 
-        Evaluates pre-trained transformer (zero-shot) models without fine-tuning:
+        Evaluates pre-trained transformer-based (zero-shot) models without fine-tuning:
             BART-large-MNLI for entailment-based classification
             SBERT for similarity-based classification
 
@@ -269,7 +270,7 @@ This design ensures replicability, comparability, and statistical robustness.
 This replication package offers five key contributions to the research community:
 
 - A fully reproducible experimental pipeline for requirements classification.
-- A systematic comparison of shallow and transformer models on diverse datasets.
+- A systematic comparison of shallow and transformer-based models on diverse datasets.
 - An empirical assessment of dataset quality and labelling effects on performance.
 - A transparent evaluation of model generalisation using cross-dataset testing.
 - A user-friendly application with a GUI that runs all experiments automatically.
@@ -287,145 +288,317 @@ Before running the application, ensure your system meets the following requireme
 | Operating system |         Windows 11 (64-bit)/Linux         |   Windows 11 (64-bit)    |
 | RAM              |                    8GB                    |          16GB+           |
 | CPU              |            Intel Core i5 gen 8            |   Intel Core i5 gen 8+   |
-| GPU              | Nvidia RTX 2060/Intel Iris Xe (avoid AMD) |     Nvidia RTX 3060+     |
+| GPU              | NVIDIA RTX 2060/Intel Iris Xe (avoid AMD) |     NVIDIA RTX 3060+     |
 | CUDA toolkit     |               Not mandatory               |        CUDA 12.1         |
 | Disk space       |                    2GB                    |           8GB            |
 
+This section describes how to clone the repository, configure the environment, and run the replication package either through the graphical user interface (GUI) or by executing the Python scripts manually.
+The goal is to enable full reproducibility of the experiments presented in the study, including all preprocessing, training, inference, evaluation, and visualisation steps.
+
+1.  **Cloning the repository**
+
+    Open a terminal and run: 
+    ```sh
+    git clone https://github.com/marvinalnashi/Requirements-Classification-Replication-Package.git
+    cd Requirements-Classification-Replication-Package
+    ```
+    This will create a local copy of the repository containing the entire experimental framework.
 
 
+2.  **Creating the Python virtual environment**
+
+    The project uses Python 3.11. Using a clean virtual environment ensures compatibility and isolation from system packages.
+    ```sh
+    python -m venv venv311
+    ```
+    Activate the environment: 
+    - Windows (PowerShell):
+      ```sh
+      venv311\Scripts\activate
+      ```
+    - Linux/macOS
+      ```sh
+      source venv311/bin/activate
+      ```
+      You should now see (venv311) at the start of your terminal.
 
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+3.  **Installing dependencies**
+
+    All required packages are listed in requirements.txt. Install them using:
+    ```sh
+    pip install -r requirements.txt
+    ```
+    This will install core libraries that the application depends on.
+    If you have an NVIDIA GPU and wish to use CUDA acceleration, ensure that your installed PyTorch build supports CUDA 12.1 or higher:
+    ```sh
+    python -c "import torch; print(torch.__version__, torch.version.cuda, torch.cuda.is_available())"
+    ```
+    If CUDA is available, the GUI will automatically detect and use it. Otherwise, the application will fall back to CPU execution.
+    To install the CUDA wheels for your Python version in your virtual environment, it is essential to determine which version of the CUDA stack to install.
+    Please check whether your GPU is compatible with CUDA. Most NVIDIA GPUs are compatible but the version of the CUDA wheels to install in your virtual environment strongly depends on the specific graphics card used.
+    [Visit](https://developer.nvidia.com/cuda-gpus) the CUDA GPU Compute Capability table to check this for your used GPU.
+    To install the CUDA 12.4 stack from the official PyTorch wheel index, run the following: 
+      ```sh
+      pip install --upgrade pip
+      pip install --index-url https://download.pytorch.org/whl/cu124 torch torchvision torchaudio
+      ```
+
+4.  **Running the experiments through the GUI (Choose either this step or step 5)**
+
+    The easiest way to execute the full experimental pipeline is through the GUI provided in start.py.
+    Run the application with:
+    ```sh
+    python start.py
+    ```
+    The interface provides four intuitive buttons and a checkbox in the main menu.
+    - Run full pipeline
+      1. Data preprocessing
+      2. Shallow model training
+      3. Transformer-based model evaluation
+      4. Metric calculation and visualisation
+      5. Report generation
+    - Clean generated files: deletes all files that were generated by the application and allows the user to run the evaluation from scratch.
+    - Open README.md: opens this README.md file in the text editor that is set to default in the system.
+    - Exit: gracefully stop the start.py script and close the application.
+    - CUDA checkbox: switch between GPU-accelerated and CPU-only execution. 
+      Using a suitable GPU may drastically improve the performance of the pipeline.
+    
+    Clicking the button that runs the full pipeline opens a new window in which all the scripts of the application are run except for the script that removes the files the application generates.
+    All scripts are run sequentially. A bar shows the current progress of the pipeline. Under the progress bar, a box displays the commands and script outputs as if the scripts were run inside a terminal. 
+    After all scripts have completed and all artifacts have been generated, two buttons appear in the window.
+    - Open results in Explorer: opens the results directory in the default file manager application of the system.
+    - Return to main menu: closes the window and loads the main menu.
+    
+
+5.  **Running the experiments through the scripts manually (Choose either this step or step 4)**
+
+    Advanced users may prefer to execute individual modules directly from the command line.
+    Below is the recommended execution order and what each step takes as input and produces as output:
+    - **Step 1: preprocessing.py**
+      
+        - Description: cleans/prepares datasets and performs feature extraction. Text is cleaned by removing URLs, enforcing lowercase, removing punctuations, and normalising whitespaces.
+        - Input: Original dataset .csv files
+        - Output: Processed dataset .csv files
+
+    - **Step 2: train_logreg.py**
+      
+        - Description: Trains a Logistic Regression classifier using TF-IDF features.
+        - Input: Preprocessed train/test .csv files
+        - Output: Trained shallow models that are saved as .pkl (pickle) files
+
+    - **Step 3: train_svm.py**
+      
+        - Description: Trains a Support Vector Machine classifier using TF-IDF features.
+        - Input: Preprocessed train/test .csv files
+        - Output: Trained shallow models that are saved as .pkl (pickle) files
+
+    - **Step 4: predict_shallow.py**
+      
+        - Description: Loads a trained shallow model and writes predictions CSVs that match the transformer outputs.
+        - Input: Trained shallow models that are saved as .pkl (pickle) files
+        - Output: Prediction tables that are saved as .csv files
+
+    - **Step 5: evaluate_bart_mnli.py**
+      
+        - Description: Runs BART-large-MNLI zero-shot inference for FR/NFR classification and NFR subclassification.
+        - Input: Raw text from test .csv files
+        - Output: Prediction tables that are saved as .csv files
+
+    - **Step 6: evaluate_sbert.py**
+      
+        - Description: Runs SBERT similarity-based zero-shot classification.
+        - Input: Raw text from test .csv files
+        - Output: Prediction tables that are saved as .csv files
+
+    - **Step 7: evaluate_predictions.py**
+      
+        - Description: Calculates the metrics accuracy, precision, recall, macro-F1, micro-F1, and per-class F1.
+        - Input: Prediction tables that are saved as .csv files
+        - Output: Metrics that are saved as .json files and confusion matrix figures.
+
+    - **Step 8: generate_all_figures.py**
+      
+        - Description: Generates summary and comparative visualisations for all research questions.
+        - Input: Metrics that are saved as .json.
+        - Output: Bar charts, slope charts, and other figures and summary tables.
+
+    All intermediate figures and final figures are stored in the /results/ directory, organised by type (models, stats, tables, and figures).
+
+
+6.  **Cleaning the environment**
+
+    To reset the project to a clean state (removing all generated models, plots, and metrics):
+    ```sh
+    python src/clean_generated.py
+    ```
+    This script safely removes all generated files while preserving the datasets and source code, allowing rerunning the experiments from scratch.
+    The script can also be run by clicking the Clean generated files button in the main menu of the application's GUI.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Interpreting the results
 
+Once the pipeline completes, the application generates a set of outputs located in the /results/ directory.
+These include figures, metrics, trained models, and CSV summaries.
+Each type of artifact corresponds to specific parts of the research and to one or more of the three research questions (RQs).
 
-<!-- USAGE EXAMPLES -->
-## Usage
+### Figures
+1.  **Confusion matrices**
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+      - Location: /results/figures/*_confusion.png
+      - Purpose: Show the true versus predicted labels for each model–dataset pair.
+      - Interpretation:
+          - The diagonal cells represent correctly classified requirements.
+          - Off-diagonal cells indicate misclassifications.
+          - A strong diagonal implies reliable classification performance.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+2.  **Per-class F1-scores**
+
+      - Location: /results/figures/*_perclass_f1.png
+      - Purpose: Display how well each model predicts individual requirement categories.
+      - Interpretation:
+          - Useful for identifying classes that are underrepresented or difficult to distinguish.
+          - Large variance between classes may indicate dataset imbalance.
+
+3.  **Summary figures**
+
+      - Location: /results/figures/*_summary.png
+      - Purpose: Compare overall metrics (Macro-F1 and Accuracy/Micro-F1) per model.
+      - Interpretation:
+          - High Macro-F1 indicates good overall balance across classes.
+          - The accuracy or micro-F1 metric reflects the proportion of correctly predicted samples.
+
+4.  **Overall model comparison (RQ1)**
+
+      - Location: /results/figures/overall_model_comparison.png
+      - Purpose: Answers RQ1 – “How can traditional ML models be compared with transformer-based models in requirements classification?”
+      - Interpretation:
+          - SVM and Logistic Regression achieve the highest Macro-F1 on both datasets.
+          - BART-MNLI and SBERT perform worse because they are zero-shot models not fine-tuned on PROMISE or PURE.
+          - PROMISE scores are consistently higher than PURE due to dataset cleanliness and size.
+      - Conclusion: 
+          - Supervised shallow models outperform pre-finetuned but zero-shot transformer-based models in this setup. 
+            If the transformer-based models were fine-tuned on PROMISE and PURE, the results may have been significantly different and may have aligned more with prior work.
+
+5.  **Dataset impact (RQ2)**
+
+      - Location: /results/figures/dataset_impact.png
+      - Purpose: Answers RQ2 – “What impact do different labelling schemes have on classification accuracy and generalisation?”
+      - Interpretation:
+          - The slope chart shows how performance changes between PROMISE and PURE for each model.
+          - All models experience a drop when moving from PROMISE (multi-label, consistent) to PURE (single-label, diverse).
+          - The gap is largest for shallow models.
+      - Conclusion: 
+          - Dataset characteristics strongly influence model outcomes. 
+            Cleaner, smaller datasets yield higher scores.
+
+6.  **Cross-dataset generalisation (RQ3)**
+
+      - Location: /results/figures/cross_dataset_generalisation_proxy.png
+      - Purpose: Answers RQ3 – “How do classification accuracy and F1 score change when models trained on PROMISE are tested on PURE, and vice versa?”
+      - Interpretation:
+          - Shows ΔMacro-F1, the difference in performance between PROMISE and PURE.
+          - Smaller bars indicate better stability and consistency across datasets.
+          - Transformer-based models show more consistent (though lower) performance, while shallow models vary more strongly.
+      - Conclusion: 
+          - Transformers generalise more steadily across datasets, whereas shallow models perform better in-domain but degrade in cross-domain setups.
+
+### Numerical outputs
+1.  **Evaluation metrics**
+
+    - Directory: /results/stats/
+    - File type: .json
+    - Description: Contains all evaluation metrics per model–dataset pair, including accuracy, precision, recall, macro-F1, micro-F1, per-class F1 scores.
+
+2.  **Evaluation metrics**
+
+    - Directory: /results/tables/
+    - File type: .csv
+    - Description: Contains prediction outputs and summary tables, useful for statistical comparison or replotting.
+
+3.  **Evaluation metrics**
+
+    - Directory: /results/models/
+    - File type: .pkl
+    - Description: Contains serialised versions of the trained shallow models. These can be reloaded for inference without retraining.
+
+Each JSON file has the following structure: 
+```sh
+    {
+      "accuracy": 0.842,
+      "macro_f1": 0.793,
+      "micro_f1": 0.851,
+      "report": {
+        "FR": {"precision": 0.85, "recall": 0.83, "f1-score": 0.84},
+        "NFR": {"precision": 0.78, "recall": 0.76, "f1-score": 0.77},
+        "macro avg": {"f1-score": 0.79},
+        "weighted avg": {"f1-score": 0.81}
+      }
+    }
+```
+
+### How the results connect to the research questions
+1.  **RQ1**
+
+    - Figure: overall_model_comparison.png
+    - Main output: Macro-F1 comparison across model families
+    - Interpretation: Shallow models outperform transformers when trained directly on labeled data.
+
+2.  **RQ2**
+
+    - Figure: dataset_impact.png
+    - Main output: Macro-F1 slopes from PROMISE to PURE
+    - Interpretation: Dataset design significantly affects model accuracy. PURE introduces greater linguistic and topical variability.
+
+3.  **RQ3**
+
+    - Figure: cross_dataset_generalisation_proxy.png
+    - Main output: ΔMacro-F1 differences
+    - Interpretation: Transformers maintain more consistent performance across datasets, showing better generalisation stability.
+
+### Recommended next steps for researchers
+- Fine-tuning transformer-based models on PROMISE and PURE could close the gap with shallow models, yielding results that align more with prior work in this field.
+- Expanding datasets with more balanced NFR categories would reduce per-class performance variance.
+- Combining embedding-based and feature-based approaches (e.g., hybrid SVM + SBERT embeddings) may yield stronger cross-dataset results.
+- Applying explainable AI (XAI) methods could reveal why specific requirement categories are harder to classify.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Citation and references
+If you use this replication package or its derived outputs in your research or teaching, please cite it as follows: 
 
+APA-style citation
 
-<!-- ROADMAP -->
-## Roadmap
+    Al Nashi, M.H. (2025). Software Requirements Classification with Classical ML and Transformers: The Role of Dataset Quality and Generalisation (Replication Package).
+    Utrecht University, Department of Information and Computing Sciences.
+    GitHub repository: https://github.com/marvinalnashi/Requirements-Classification-Replication-Package
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+BibTeX entry
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Top contributors:
-
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
-</a>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the project_license. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+    @misc{alnashi2025requirements,
+    author       = {Marvin Al Nashi},
+    title        = {Software Requirements Classification with Classical ML and Transformers: The Role of Dataset Quality and Generalisation (Replication Package)},
+    year         = {2025},
+    institution  = {Utrecht University},
+    howpublished = {\url{https://github.com/marvinalnashi/Requirements-Classification-Replication-Package}},
+    note         = {Replication package accompanying a research study in Requirements Engineering and NLP and AI for Software Engineering}
+    }
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/marvinalnashi/Requirements-Classification-Replication-Package.svg?style=for-the-badge
+[contributors-url]: https://github.com/marvinalnashi/Requirements-Classification-Replication-Package/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/marvinalnashi/Requirements-Classification-Replication-Package.svg?style=for-the-badge
+[forks-url]: https://github.com/marvinalnashi/Requirements-Classification-Replication-Package/network/members
+[stars-shield]: https://img.shields.io/github/stars/marvinalnashi/Requirements-Classification-Replication-Package.svg?style=for-the-badge
+[stars-url]: https://github.com/marvinalnashi/Requirements-Classification-Replication-Package/stargazers
+[issues-shield]: https://img.shields.io/github/issues/marvinalnashi/Requirements-Classification-Replication-Package.svg?style=for-the-badge
+[issues-url]: https://github.com/marvinalnashi/Requirements-Classification-Replication-Package/issues
+[license-shield]: https://img.shields.io/github/license/marvinalnashi/Requirements-Classification-Replication-Package.svg?style=for-the-badge
+[license-url]: https://github.com/marvinalnashi/Requirements-Classification-Replication-Package/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/marvinalnashi/
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
