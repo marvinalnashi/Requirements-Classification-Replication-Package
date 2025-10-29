@@ -24,8 +24,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+  Table of Contents
   <ol>
     <li>
       <a href="#introduction">Introduction</a>
@@ -64,7 +63,6 @@
       <a href="#citations-and-references">Citations and references</a>
     </li>
   </ol>
-</details>
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
