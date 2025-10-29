@@ -25,6 +25,7 @@ PREDICT_SHALLOW = REPOSITORY_ROOT / "src" / "shallow-model" / "predict_shallow.p
 EVALUATE_BART = REPOSITORY_ROOT / "src" / "transformer-based-model" / "evaluate_bart_mnli.py"
 EVALUATE_SBERT = REPOSITORY_ROOT / "src" / "transformer-based-model" / "evaluate_sbert.py"
 EVALUATE_PREDICTION = REPOSITORY_ROOT / "src" / "evaluation" / "evaluate_predictions.py"
+GENERATE_FIGURES = REPOSITORY_ROOT / "src" / "generate_all_figures.py"
 CLEAN = REPOSITORY_ROOT / "src" / "clean_generated.py"
 README = REPOSITORY_ROOT / "README.md"
 
@@ -58,6 +59,7 @@ def pipeline_commands():
     steps.append([py, str(EVALUATE_PREDICTION), "--prediction", str(REPOSITORY_ROOT / "results" / "tables" / "sbert_promise_predictions.csv"), "--dataset", "PROMISE", "--name", "sbert"])
     steps.append([py, str(EVALUATE_PREDICTION), "--prediction", str(REPOSITORY_ROOT / "results" / "tables" / "sbert_pure_predictions.csv"), "--dataset", "PURE", "--name", "sbert"])
 
+    steps.append([py, str(GENERATE_FIGURES)])
     return steps
 
 class App(tk.Tk):
